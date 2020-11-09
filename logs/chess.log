@@ -1,0 +1,769 @@
+2020/11/08 16:14:27 [INFO]main.go:11: svr start ...
+2020/11/08 16:15:03 [DEBUG]userhandler.go:13: pre user login, request: &{0xc000230000 0xc00029a000}
+2020/11/08 16:15:03 [INFO]userhandler.go:14: 127.0.0.1:47850
+2020/11/08 16:15:03 [INFO]userhandler.go:15: 0
+2020/11/08 16:15:03 [INFO]userhandler.go:16: 0
+2020/11/08 16:15:03 [INFO]userhandler.go:17: {"user_id":1,"pass_word":"123"}
+2020/11/08 16:15:03 [DEBUG]userhandler.go:21: handling user login, request: &{0xc000230000 0xc00029a000}
+2020/11/08 16:15:03 [DEBUG]userhandler.go:26: after user login, request: &{0xc000230000 0xc00029a000}
+2020/11/08 16:17:28 [INFO]main.go:11: svr start ...
+2020/11/08 16:17:42 [DEBUG]userhandler.go:13: pre user login, request: &{0xc0000b8000 0xc000312000}
+2020/11/08 16:17:42 [INFO]userhandler.go:14: 127.0.0.1:47872
+2020/11/08 16:17:42 [INFO]userhandler.go:15: 0
+2020/11/08 16:17:42 [INFO]userhandler.go:16: 0
+2020/11/08 16:17:42 [INFO]userhandler.go:17: {"user_id":1,"pass_word":"123"}
+2020/11/08 16:17:42 [DEBUG]userhandler.go:21: handling user login, request: &{0xc0000b8000 0xc000312000}
+2020/11/08 16:17:42 [DEBUG]userhandler.go:26: after user login, request: &{0xc0000b8000 0xc000312000}
+2020/11/08 16:32:23 [DEBUG]userhandler.go:13: pre user login, request: &{0xc0000b8090 0xc0003120e0}
+2020/11/08 16:32:23 [INFO]userhandler.go:14: 127.0.0.1:47952
+2020/11/08 16:32:23 [INFO]userhandler.go:15: 1
+2020/11/08 16:32:23 [INFO]userhandler.go:16: 0
+2020/11/08 16:32:23 [INFO]userhandler.go:17: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 16:32:23 [DEBUG]userhandler.go:21: handling user login, request: &{0xc0000b8090 0xc0003120e0}
+2020/11/08 16:32:23 [DEBUG]userhandler.go:26: after user login, request: &{0xc0000b8090 0xc0003120e0}
+2020/11/08 17:09:22 [INFO]main.go:11: svr start ...
+2020/11/08 17:09:34 [DEBUG]userhandler.go:17: pre user login, request: &{0xc0000b6000 0xc00038a000}
+2020/11/08 17:09:34 [INFO]userhandler.go:18: 127.0.0.1:48372
+2020/11/08 17:09:34 [INFO]userhandler.go:19: 0
+2020/11/08 17:09:34 [INFO]userhandler.go:20: 0
+2020/11/08 17:09:34 [INFO]userhandler.go:21: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 17:09:36 [DEBUG]userhandler.go:30: handling user login, request: &{0xc0000b6000 0xc00038a000}
+2020/11/08 17:09:39 [INFO]userhandler.go:31: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 17:09:42 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/08 17:09:42 [ERROR]user.go:17: Error 1146: Table 'chess.chess_users' doesn't exist
+2020/11/08 17:09:55 [ERROR]userhandler.go:40: Error 1146: Table 'chess.chess_users' doesn't exist
+2020/11/08 17:10:28 [INFO]main.go:11: svr start ...
+2020/11/08 17:10:42 [DEBUG]userhandler.go:17: pre user login, request: &{0xc000300000 0xc0000a6040}
+2020/11/08 17:10:42 [INFO]userhandler.go:18: 127.0.0.1:48396
+2020/11/08 17:10:42 [INFO]userhandler.go:19: 0
+2020/11/08 17:10:42 [INFO]userhandler.go:20: 0
+2020/11/08 17:10:42 [INFO]userhandler.go:21: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 17:10:44 [DEBUG]userhandler.go:30: handling user login, request: &{0xc000300000 0xc0000a6040}
+2020/11/08 17:10:44 [INFO]userhandler.go:31: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 17:10:45 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/08 17:10:45 [ERROR]user.go:17: record not found
+2020/11/08 17:10:52 [ERROR]userhandler.go:40: record not found
+2020/11/08 17:11:21 [DEBUG]userhandler.go:17: pre user login, request: &{0xc0003001b0 0xc000214a00}
+2020/11/08 17:11:21 [INFO]userhandler.go:18: 127.0.0.1:48404
+2020/11/08 17:11:21 [INFO]userhandler.go:19: 1
+2020/11/08 17:11:21 [INFO]userhandler.go:20: 0
+2020/11/08 17:11:21 [INFO]userhandler.go:21: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 17:11:23 [DEBUG]userhandler.go:30: handling user login, request: &{0xc0003001b0 0xc000214a00}
+2020/11/08 17:11:24 [INFO]userhandler.go:31: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 17:11:25 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/08 17:11:40 [ERROR]user.go:17: record not found
+2020/11/08 17:11:40 [ERROR]userhandler.go:40: record not found
+2020/11/08 17:14:15 [INFO]main.go:11: svr start ...
+2020/11/08 17:14:22 [DEBUG]userhandler.go:17: pre user login, request: &{0xc0000ca1b0 0xc000228040}
+2020/11/08 17:14:22 [INFO]userhandler.go:18: 127.0.0.1:48484
+2020/11/08 17:14:22 [INFO]userhandler.go:19: 0
+2020/11/08 17:14:22 [INFO]userhandler.go:20: 0
+2020/11/08 17:14:22 [INFO]userhandler.go:21: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 17:14:25 [DEBUG]userhandler.go:30: handling user login, request: &{0xc0000ca1b0 0xc000228040}
+2020/11/08 17:14:25 [INFO]userhandler.go:31: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 17:14:29 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/08 23:09:03 [INFO]main.go:11: svr start ...
+2020/11/08 23:09:15 [DEBUG]userhandler.go:18: pre user login, request: &{0xc00012c1b0 0xc00030a000}
+2020/11/08 23:09:15 [INFO]userhandler.go:19: 127.0.0.1:57850
+2020/11/08 23:09:15 [INFO]userhandler.go:20: 0
+2020/11/08 23:09:15 [INFO]userhandler.go:21: 0
+2020/11/08 23:09:15 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 23:09:15 [DEBUG]userhandler.go:31: handling user login, request: &{0xc00012c1b0 0xc00030a000}
+2020/11/08 23:09:15 [INFO]userhandler.go:32: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 23:09:15 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/08 23:09:20 [DEBUG]selectcard.go:26: &{0xc00012c1b0 0xc00030a660}
+2020/11/08 23:09:23 [DEBUG]selectcard.go:27: 2
+2020/11/08 23:09:28 [DEBUG]selectcard.go:28: 
+2020/11/08 23:09:45 [ERROR]selectcard.go:35: invalid character '\x01' looking for beginning of value
+2020/11/08 23:09:45 [DEBUG]selectcard.go:47: SelectCardHandler post
+2020/11/08 23:13:44 [INFO]main.go:11: svr start ...
+2020/11/08 23:13:52 [DEBUG]userhandler.go:18: pre user login, request: &{0xc000310000 0xc000290040}
+2020/11/08 23:13:52 [INFO]userhandler.go:19: 127.0.0.1:57916
+2020/11/08 23:13:52 [INFO]userhandler.go:20: 0
+2020/11/08 23:13:52 [INFO]userhandler.go:21: 0
+2020/11/08 23:13:52 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 23:13:52 [DEBUG]userhandler.go:26: handling user login, request: &{0xc000310000 0xc000290040}
+2020/11/08 23:13:52 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 23:13:52 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/08 23:13:55 [DEBUG]selectcard.go:18: &{0xc000310000 0xc0002906a0}
+2020/11/08 23:13:55 [DEBUG]selectcard.go:19: 2
+2020/11/08 23:13:55 [DEBUG]selectcard.go:20: 1
+2020/11/08 23:14:26 [ERROR]selectcard.go:27: json: cannot unmarshal number into Go value of type proto.ReqSelCard
+2020/11/08 23:14:26 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/08 23:17:22 [DEBUG]userhandler.go:18: pre user login, request: &{0xc000422000 0xc000290740}
+2020/11/08 23:17:22 [INFO]userhandler.go:19: 127.0.0.1:57968
+2020/11/08 23:17:22 [INFO]userhandler.go:20: 1
+2020/11/08 23:17:22 [INFO]userhandler.go:21: 0
+2020/11/08 23:17:22 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 23:17:22 [DEBUG]userhandler.go:26: handling user login, request: &{0xc000422000 0xc000290740}
+2020/11/08 23:17:22 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 23:17:22 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/08 23:17:25 [DEBUG]selectcard.go:18: &{0xc000422000 0xc00000e040}
+2020/11/08 23:17:25 [DEBUG]selectcard.go:19: 2
+2020/11/08 23:17:25 [DEBUG]selectcard.go:20: {"tech_level":1}
+2020/11/08 23:17:36 [DEBUG]selectcard.go:31: 1
+2020/11/08 23:17:37 [DEBUG]selectcard.go:12: GetSelectCards  1
+2020/11/08 23:17:38 [ERROR]cardpercent.go:13: Error 1146: Table 'chess.chess_percents' doesn't exist
+2020/11/08 23:17:38 [ERROR]cardpercent.go:14: percentRec.RowsAffected == 0
+2020/11/08 23:17:47 [DEBUG]selectcard.go:15: 0 []
+2020/11/08 23:17:47 [DEBUG]selectcard.go:34: 
+2020/11/08 23:17:47 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/08 23:17:58 [DEBUG]userhandler.go:18: pre user login, request: &{0xc000310120 0xc00000e4e0}
+2020/11/08 23:17:58 [INFO]userhandler.go:19: 127.0.0.1:57984
+2020/11/08 23:17:58 [INFO]userhandler.go:20: 2
+2020/11/08 23:17:58 [INFO]userhandler.go:21: 0
+2020/11/08 23:17:58 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 23:17:58 [DEBUG]userhandler.go:26: handling user login, request: &{0xc000310120 0xc00000e4e0}
+2020/11/08 23:17:58 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 23:17:58 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/08 23:18:02 [DEBUG]selectcard.go:18: &{0xc000310120 0xc00000e960}
+2020/11/08 23:18:02 [DEBUG]selectcard.go:19: 2
+2020/11/08 23:18:02 [DEBUG]selectcard.go:20: {"tech_level":1}
+2020/11/08 23:18:02 [DEBUG]selectcard.go:31: 1
+2020/11/08 23:18:02 [DEBUG]selectcard.go:12: GetSelectCards  1
+2020/11/08 23:19:18 [INFO]main.go:11: svr start ...
+2020/11/08 23:19:27 [DEBUG]userhandler.go:18: pre user login, request: &{0xc00012c1b0 0xc000392000}
+2020/11/08 23:19:27 [INFO]userhandler.go:19: 127.0.0.1:58010
+2020/11/08 23:19:27 [INFO]userhandler.go:20: 0
+2020/11/08 23:19:27 [INFO]userhandler.go:21: 0
+2020/11/08 23:19:27 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 23:19:27 [DEBUG]userhandler.go:26: handling user login, request: &{0xc00012c1b0 0xc000392000}
+2020/11/08 23:19:27 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 23:19:27 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/08 23:19:28 [DEBUG]selectcard.go:18: &{0xc00012c1b0 0xc00009a000}
+2020/11/08 23:19:28 [DEBUG]selectcard.go:19: 2
+2020/11/08 23:19:28 [DEBUG]selectcard.go:20: {"tech_level":1}
+2020/11/08 23:19:28 [DEBUG]selectcard.go:31: 1
+2020/11/08 23:19:30 [DEBUG]selectcard.go:12: GetSelectCards  1
+2020/11/08 23:19:33 [DEBUG]cardpercent.go:17: {1 1 80 20 0 0 0 5}
+2020/11/08 23:19:49 [DEBUG]selectcard.go:15: 5 [0 0 0 0 0 80 20 0 0 0]
+2020/11/08 23:21:08 [INFO]main.go:11: svr start ...
+2020/11/08 23:21:17 [DEBUG]userhandler.go:18: pre user login, request: &{0xc000326000 0xc000412000}
+2020/11/08 23:21:17 [INFO]userhandler.go:19: 127.0.0.1:58038
+2020/11/08 23:21:17 [INFO]userhandler.go:20: 0
+2020/11/08 23:21:17 [INFO]userhandler.go:21: 0
+2020/11/08 23:21:17 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 23:21:17 [DEBUG]userhandler.go:26: handling user login, request: &{0xc000326000 0xc000412000}
+2020/11/08 23:21:17 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/08 23:21:17 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/08 23:21:18 [DEBUG]selectcard.go:18: &{0xc000326000 0xc00032c000}
+2020/11/08 23:21:18 [DEBUG]selectcard.go:19: 2
+2020/11/08 23:21:18 [DEBUG]selectcard.go:20: {"tech_level":1}
+2020/11/08 23:21:18 [DEBUG]selectcard.go:31: 1
+2020/11/08 23:21:22 [DEBUG]selectcard.go:12: GetSelectCards  1
+2020/11/08 23:21:23 [DEBUG]cardpercent.go:17: {1 1 80 20 0 0 0 5}
+2020/11/08 23:21:23 [DEBUG]selectcard.go:15: 5 [80 20 0 0 0]
+2020/11/08 23:21:34 [DEBUG]selectcard.go:19: 2
+2020/11/08 23:21:42 [DEBUG]selectcard.go:19: 2
+2020/11/08 23:21:46 [DEBUG]selectcard.go:19: 1
+2020/11/08 23:21:49 [DEBUG]selectcard.go:19: 1
+2020/11/08 23:21:50 [DEBUG]selectcard.go:19: 2
+2020/11/08 23:21:50 [DEBUG]selectcard.go:34: 
+2020/11/08 23:21:50 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:34:23 [INFO]main.go:11: svr start ...
+2020/11/09 10:34:32 [DEBUG]userhandler.go:18: pre user login, request: &{0xc0000b0000 0xc0000be000}
+2020/11/09 10:34:32 [INFO]userhandler.go:19: 127.0.0.1:54834
+2020/11/09 10:34:32 [INFO]userhandler.go:20: 0
+2020/11/09 10:34:32 [INFO]userhandler.go:21: 0
+2020/11/09 10:34:32 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:34:32 [DEBUG]userhandler.go:26: handling user login, request: &{0xc0000b0000 0xc0000be000}
+2020/11/09 10:34:32 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:34:32 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:34:33 [DEBUG]selectcard.go:18: &{0xc0000b0000 0xc0000be040}
+2020/11/09 10:34:33 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:34:33 [DEBUG]selectcard.go:20: {"tech_level":1}
+2020/11/09 10:34:33 [DEBUG]selectcard.go:31: 1
+2020/11/09 10:34:38 [DEBUG]selectcard.go:76: GetSelectCards  1
+2020/11/09 10:34:45 [DEBUG]cardpercent.go:17: {1 1 80 20 0 0 0 5}
+2020/11/09 10:34:51 [DEBUG]selectcard.go:83: 5 [80 20 0 0 0]
+2020/11/09 10:35:02 [DEBUG]selectcard.go:88: 2
+2020/11/09 10:35:18 [DEBUG]selectcard.go:88: 2
+2020/11/09 10:35:57 [DEBUG]selectcard.go:88: 1
+2020/11/09 10:35:57 [DEBUG]selectcard.go:88: 1
+2020/11/09 10:35:57 [DEBUG]selectcard.go:88: 2
+2020/11/09 10:35:58 [DEBUG]selectcard.go:34: []
+2020/11/09 10:35:58 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:36:35 [INFO]main.go:11: svr start ...
+2020/11/09 10:36:43 [DEBUG]userhandler.go:18: pre user login, request: &{0xc0000b8000 0xc00030a000}
+2020/11/09 10:36:43 [INFO]userhandler.go:19: 127.0.0.1:54856
+2020/11/09 10:36:43 [INFO]userhandler.go:20: 0
+2020/11/09 10:36:43 [INFO]userhandler.go:21: 0
+2020/11/09 10:36:43 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:36:43 [DEBUG]userhandler.go:26: handling user login, request: &{0xc0000b8000 0xc00030a000}
+2020/11/09 10:36:43 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:36:43 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:36:44 [DEBUG]selectcard.go:18: &{0xc0000b8000 0xc0000c6000}
+2020/11/09 10:36:44 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:36:44 [DEBUG]selectcard.go:20: {"tech_level":1}
+2020/11/09 10:36:44 [DEBUG]selectcard.go:31: 1
+2020/11/09 10:36:46 [DEBUG]selectcard.go:76: GetSelectCards  1
+2020/11/09 10:37:42 [INFO]main.go:11: svr start ...
+2020/11/09 10:37:50 [DEBUG]userhandler.go:18: pre user login, request: &{0xc0000b4000 0xc00030a000}
+2020/11/09 10:37:50 [INFO]userhandler.go:19: 127.0.0.1:54870
+2020/11/09 10:37:50 [INFO]userhandler.go:20: 0
+2020/11/09 10:37:50 [INFO]userhandler.go:21: 0
+2020/11/09 10:37:50 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:37:50 [DEBUG]userhandler.go:26: handling user login, request: &{0xc0000b4000 0xc00030a000}
+2020/11/09 10:37:50 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:37:50 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:37:51 [DEBUG]selectcard.go:18: &{0xc0000b4000 0xc0000c2000}
+2020/11/09 10:37:51 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:37:51 [DEBUG]selectcard.go:20: {"tech_level":1}
+2020/11/09 10:37:51 [DEBUG]selectcard.go:31: 1
+2020/11/09 10:37:52 [DEBUG]selectcard.go:76: GetSelectCards  1
+2020/11/09 10:38:11 [DEBUG]cardpercent.go:17: {1 1 80 20 0 0 0 5}
+2020/11/09 10:38:11 [DEBUG]selectcard.go:83: 5 [80 20 0 0 0]
+2020/11/09 10:38:14 [DEBUG]selectcard.go:88: 2
+2020/11/09 10:38:15 [DEBUG]selectcard.go:88: 2
+2020/11/09 10:38:18 [DEBUG]selectcard.go:88: 1
+2020/11/09 10:39:43 [DEBUG]selectcard.go:88: 1
+2020/11/09 10:39:44 [DEBUG]selectcard.go:88: 2
+2020/11/09 10:39:44 [DEBUG]selectcard.go:34: []
+2020/11/09 10:39:44 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:42:34 [INFO]main.go:11: svr start ...
+2020/11/09 10:42:39 [DEBUG]userhandler.go:18: pre user login, request: &{0xc00039a000 0xc0003aa000}
+2020/11/09 10:42:39 [INFO]userhandler.go:19: 127.0.0.1:54932
+2020/11/09 10:42:39 [INFO]userhandler.go:20: 0
+2020/11/09 10:42:39 [INFO]userhandler.go:21: 0
+2020/11/09 10:42:39 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:42:39 [DEBUG]userhandler.go:26: handling user login, request: &{0xc00039a000 0xc0003aa000}
+2020/11/09 10:42:39 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:42:39 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:42:40 [DEBUG]selectcard.go:18: &{0xc00039a000 0xc00030a000}
+2020/11/09 10:42:40 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:42:40 [DEBUG]selectcard.go:20: {"tech_level":1}
+2020/11/09 10:42:40 [DEBUG]selectcard.go:31: 1
+2020/11/09 10:42:41 [DEBUG]selectcard.go:86: GetSelectCards  1
+2020/11/09 10:43:38 [INFO]main.go:11: svr start ...
+2020/11/09 10:43:46 [DEBUG]userhandler.go:18: pre user login, request: &{0xc0002ae000 0xc00030a000}
+2020/11/09 10:43:46 [INFO]userhandler.go:19: 127.0.0.1:54948
+2020/11/09 10:43:46 [INFO]userhandler.go:20: 0
+2020/11/09 10:43:46 [INFO]userhandler.go:21: 0
+2020/11/09 10:43:46 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:43:46 [DEBUG]userhandler.go:26: handling user login, request: &{0xc0002ae000 0xc00030a000}
+2020/11/09 10:43:46 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:43:46 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:43:47 [DEBUG]selectcard.go:18: &{0xc0002ae000 0xc00030a660}
+2020/11/09 10:43:47 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:43:47 [DEBUG]selectcard.go:20: {"tech_level":1}
+2020/11/09 10:43:47 [DEBUG]selectcard.go:31: 1
+2020/11/09 10:43:48 [DEBUG]selectcard.go:86: GetSelectCards  1
+2020/11/09 10:44:03 [DEBUG]cardpercent.go:17: {1 1 80 20 0 0 0 5}
+2020/11/09 10:44:03 [DEBUG]selectcard.go:93: 5 [80 20 0 0 0]
+2020/11/09 10:44:05 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:46:45 [INFO]main.go:11: svr start ...
+2020/11/09 10:46:53 [DEBUG]userhandler.go:18: pre user login, request: &{0xc000230000 0xc00029a000}
+2020/11/09 10:46:53 [INFO]userhandler.go:19: 127.0.0.1:54978
+2020/11/09 10:46:53 [INFO]userhandler.go:20: 0
+2020/11/09 10:46:53 [INFO]userhandler.go:21: 0
+2020/11/09 10:46:53 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:46:53 [DEBUG]userhandler.go:26: handling user login, request: &{0xc000230000 0xc00029a000}
+2020/11/09 10:46:53 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:46:53 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:46:54 [DEBUG]selectcard.go:18: &{0xc000230000 0xc000302000}
+2020/11/09 10:46:54 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:46:54 [DEBUG]selectcard.go:20: {"tech_level":1}
+2020/11/09 10:46:54 [DEBUG]selectcard.go:31: 1
+2020/11/09 10:46:56 [DEBUG]selectcard.go:86: GetSelectCards  1
+2020/11/09 10:47:02 [DEBUG]cardpercent.go:17: {1 1 80 20 0 0 0 5}
+2020/11/09 10:47:03 [DEBUG]selectcard.go:93: 5 [80 20 0 0 0]
+2020/11/09 10:47:06 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:47:16 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:47:28 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:47:32 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:47:34 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:47:34 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:47:34 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:47:34 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:47:34 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:47:34 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:47:34 [DEBUG]selectcard.go:34: [{"id":15,"card_name":"巫医","card_level":1,"cost":2,"basic_attack":60,"basic_health":400,"sale_price":2,"card_desc":""},{"id":10,"card_name":"冰女","card_level":1,"cost":1,"basic_attack":40,"basic_health":300,"sale_price":1,"card_desc":""},{"id":16,"card_name":"水人","card_level":1,"cost":2,"basic_attack":70,"basic_health":400,"sale_price":2,"card_desc":""},{"id":1,"card_name":"魅惑魔女","card_level":1,"cost":1,"basic_attack":50,"basic_health":350,"sale_price":1,"card_desc":""},{"id":1,"card_name":"魅惑魔女","card_level":1,"cost":1,"basic_attack":50,"basic_health":350,"sale_price":1,"card_desc":""}]
+2020/11/09 10:47:34 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:48:07 [DEBUG]userhandler.go:18: pre user login, request: &{0xc0002a2120 0xc00033b160}
+2020/11/09 10:48:07 [INFO]userhandler.go:19: 127.0.0.1:54990
+2020/11/09 10:48:07 [INFO]userhandler.go:20: 1
+2020/11/09 10:48:07 [INFO]userhandler.go:21: 0
+2020/11/09 10:48:07 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:48:07 [DEBUG]userhandler.go:26: handling user login, request: &{0xc0002a2120 0xc00033b160}
+2020/11/09 10:48:07 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:48:07 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:48:08 [DEBUG]selectcard.go:18: &{0xc0002a2120 0xc00029a660}
+2020/11/09 10:48:08 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:48:08 [DEBUG]selectcard.go:20: {"tech_level":1}
+2020/11/09 10:48:08 [DEBUG]selectcard.go:31: 1
+2020/11/09 10:48:10 [DEBUG]selectcard.go:86: GetSelectCards  1
+2020/11/09 10:48:10 [DEBUG]cardpercent.go:17: {1 1 80 20 0 0 0 5}
+2020/11/09 10:48:10 [DEBUG]selectcard.go:93: 5 [80 20 0 0 0]
+2020/11/09 10:48:10 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:48:10 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:48:10 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:48:10 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:48:10 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:48:10 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:48:10 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:48:10 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:48:10 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:48:10 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:48:10 [DEBUG]selectcard.go:34: [{"id":8,"card_name":"伐木机","card_level":1,"cost":2,"basic_attack":60,"basic_health":600,"sale_price":2,"card_desc":""},{"id":10,"card_name":"冰女","card_level":1,"cost":1,"basic_attack":40,"basic_health":300,"sale_price":1,"card_desc":""},{"id":10,"card_name":"冰女","card_level":1,"cost":1,"basic_attack":40,"basic_health":300,"sale_price":1,"card_desc":""},{"id":1,"card_name":"魅惑魔女","card_level":1,"cost":1,"basic_attack":50,"basic_health":350,"sale_price":1,"card_desc":""},{"id":5,"card_name":"发条","card_level":1,"cost":1,"basic_attack":50,"basic_health":450,"sale_price":1,"card_desc":""}]
+2020/11/09 10:48:10 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:49:53 [INFO]main.go:11: svr start ...
+2020/11/09 10:50:02 [DEBUG]userhandler.go:18: pre user login, request: &{0xc0002b0000 0xc000392000}
+2020/11/09 10:50:02 [INFO]userhandler.go:19: 127.0.0.1:55012
+2020/11/09 10:50:02 [INFO]userhandler.go:20: 0
+2020/11/09 10:50:02 [INFO]userhandler.go:21: 0
+2020/11/09 10:50:02 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:50:02 [DEBUG]userhandler.go:26: handling user login, request: &{0xc0002b0000 0xc000392000}
+2020/11/09 10:50:02 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:50:02 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:50:03 [DEBUG]selectcard.go:18: &{0xc0002b0000 0xc000392660}
+2020/11/09 10:50:03 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:50:03 [DEBUG]selectcard.go:20: {"tech_level":1}
+2020/11/09 10:50:03 [DEBUG]selectcard.go:31: 1
+2020/11/09 10:50:03 [DEBUG]selectcard.go:86: GetSelectCards  1
+2020/11/09 10:50:08 [DEBUG]cardpercent.go:17: {1 1 80 20 0 0 0 5}
+2020/11/09 10:50:08 [DEBUG]selectcard.go:93: 5 [80 20 0 0 0]
+2020/11/09 10:50:08 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:50:08 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:50:08 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:50:08 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:50:08 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:50:08 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:50:08 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:50:08 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:50:08 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:50:08 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:50:08 [DEBUG]selectcard.go:34: [{"id":15,"card_name":"巫医","card_level":1,"cost":2,"basic_attack":60,"basic_health":400,"sale_price":2,"card_desc":""},{"id":10,"card_name":"冰女","card_level":1,"cost":1,"basic_attack":40,"basic_health":300,"sale_price":1,"card_desc":""},{"id":16,"card_name":"水人","card_level":1,"cost":2,"basic_attack":70,"basic_health":400,"sale_price":2,"card_desc":""},{"id":1,"card_name":"魅惑魔女","card_level":1,"cost":1,"basic_attack":50,"basic_health":350,"sale_price":1,"card_desc":""},{"id":1,"card_name":"魅惑魔女","card_level":1,"cost":1,"basic_attack":50,"basic_health":350,"sale_price":1,"card_desc":""}]
+2020/11/09 10:50:08 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:50:42 [DEBUG]userhandler.go:18: pre user login, request: &{0xc0002b0090 0xc00030c000}
+2020/11/09 10:50:42 [INFO]userhandler.go:19: 127.0.0.1:55020
+2020/11/09 10:50:42 [INFO]userhandler.go:20: 1
+2020/11/09 10:50:42 [INFO]userhandler.go:21: 0
+2020/11/09 10:50:42 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:50:42 [DEBUG]userhandler.go:26: handling user login, request: &{0xc0002b0090 0xc00030c000}
+2020/11/09 10:50:42 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:50:42 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:50:43 [DEBUG]selectcard.go:18: &{0xc0002b0090 0xc00030c480}
+2020/11/09 10:50:43 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:50:43 [DEBUG]selectcard.go:20: {"tech_level":1}
+2020/11/09 10:50:43 [DEBUG]selectcard.go:31: 1
+2020/11/09 10:50:43 [DEBUG]selectcard.go:86: GetSelectCards  1
+2020/11/09 10:50:43 [DEBUG]cardpercent.go:17: {1 1 80 20 0 0 0 5}
+2020/11/09 10:50:43 [DEBUG]selectcard.go:93: 5 [80 20 0 0 0]
+2020/11/09 10:50:43 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:50:43 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:50:43 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:50:43 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:50:43 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:50:43 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:50:43 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:50:43 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:50:43 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:50:43 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:50:43 [DEBUG]selectcard.go:34: [{"id":8,"card_name":"伐木机","card_level":1,"cost":2,"basic_attack":60,"basic_health":600,"sale_price":2,"card_desc":""},{"id":10,"card_name":"冰女","card_level":1,"cost":1,"basic_attack":40,"basic_health":300,"sale_price":1,"card_desc":""},{"id":10,"card_name":"冰女","card_level":1,"cost":1,"basic_attack":40,"basic_health":300,"sale_price":1,"card_desc":""},{"id":1,"card_name":"魅惑魔女","card_level":1,"cost":1,"basic_attack":50,"basic_health":350,"sale_price":1,"card_desc":""},{"id":5,"card_name":"发条","card_level":1,"cost":1,"basic_attack":50,"basic_health":450,"sale_price":1,"card_desc":""}]
+2020/11/09 10:50:43 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:50:50 [DEBUG]userhandler.go:18: pre user login, request: &{0xc0003a22d0 0xc00030c8c0}
+2020/11/09 10:50:50 [INFO]userhandler.go:19: 127.0.0.1:55024
+2020/11/09 10:50:50 [INFO]userhandler.go:20: 2
+2020/11/09 10:50:50 [INFO]userhandler.go:21: 0
+2020/11/09 10:50:50 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:50:50 [DEBUG]userhandler.go:26: handling user login, request: &{0xc0003a22d0 0xc00030c8c0}
+2020/11/09 10:50:50 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:50:50 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:50:51 [DEBUG]selectcard.go:18: &{0xc0003a22d0 0xc00030cd40}
+2020/11/09 10:50:51 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:50:51 [DEBUG]selectcard.go:20: {"tech_level":1}
+2020/11/09 10:50:51 [DEBUG]selectcard.go:31: 1
+2020/11/09 10:50:51 [DEBUG]selectcard.go:86: GetSelectCards  1
+2020/11/09 10:50:51 [DEBUG]cardpercent.go:17: {1 1 80 20 0 0 0 5}
+2020/11/09 10:50:51 [DEBUG]selectcard.go:93: 5 [80 20 0 0 0]
+2020/11/09 10:50:51 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:50:51 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:50:51 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:50:51 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:50:51 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:50:51 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:50:51 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:50:51 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:50:51 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:50:51 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:50:51 [DEBUG]selectcard.go:34: [{"id":8,"card_name":"伐木机","card_level":1,"cost":2,"basic_attack":60,"basic_health":600,"sale_price":2,"card_desc":""},{"id":7,"card_name":"tk","card_level":1,"cost":1,"basic_attack":55,"basic_health":350,"sale_price":1,"card_desc":""},{"id":6,"card_name":"赏金","card_level":1,"cost":1,"basic_attack":60,"basic_health":350,"sale_price":1,"card_desc":""},{"id":16,"card_name":"水人","card_level":1,"cost":2,"basic_attack":70,"basic_health":400,"sale_price":2,"card_desc":""},{"id":2,"card_name":"先知","card_level":1,"cost":2,"basic_attack":60,"basic_health":400,"sale_price":2,"card_desc":""}]
+2020/11/09 10:50:51 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:51:09 [DEBUG]userhandler.go:18: pre user login, request: &{0xc0003a2360 0xc00030d180}
+2020/11/09 10:51:09 [INFO]userhandler.go:19: 127.0.0.1:55030
+2020/11/09 10:51:09 [INFO]userhandler.go:20: 3
+2020/11/09 10:51:09 [INFO]userhandler.go:21: 0
+2020/11/09 10:51:09 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:51:09 [DEBUG]userhandler.go:26: handling user login, request: &{0xc0003a2360 0xc00030d180}
+2020/11/09 10:51:09 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:51:09 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:51:10 [DEBUG]selectcard.go:18: &{0xc0003a2360 0xc0002bc000}
+2020/11/09 10:51:10 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:51:10 [DEBUG]selectcard.go:20: {"tech_level":1}
+2020/11/09 10:51:10 [DEBUG]selectcard.go:31: 1
+2020/11/09 10:51:10 [DEBUG]selectcard.go:86: GetSelectCards  1
+2020/11/09 10:51:10 [DEBUG]cardpercent.go:17: {1 1 80 20 0 0 0 5}
+2020/11/09 10:51:10 [DEBUG]selectcard.go:93: 5 [80 20 0 0 0]
+2020/11/09 10:51:10 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:51:10 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:51:10 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:51:10 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:51:10 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:51:10 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:51:10 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:51:10 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:51:10 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:51:10 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:51:10 [DEBUG]selectcard.go:34: [{"id":7,"card_name":"tk","card_level":1,"cost":1,"basic_attack":55,"basic_health":350,"sale_price":1,"card_desc":""},{"id":8,"card_name":"伐木机","card_level":1,"cost":2,"basic_attack":60,"basic_health":600,"sale_price":2,"card_desc":""},{"id":5,"card_name":"发条","card_level":1,"cost":1,"basic_attack":50,"basic_health":450,"sale_price":1,"card_desc":""},{"id":5,"card_name":"发条","card_level":1,"cost":1,"basic_attack":50,"basic_health":450,"sale_price":1,"card_desc":""},{"id":8,"card_name":"伐木机","card_level":1,"cost":2,"basic_attack":60,"basic_health":600,"sale_price":2,"card_desc":""}]
+2020/11/09 10:51:10 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:51:30 [DEBUG]userhandler.go:18: pre user login, request: &{0xc0003a23f0 0xc0003d7800}
+2020/11/09 10:51:30 [INFO]userhandler.go:19: 127.0.0.1:55032
+2020/11/09 10:51:30 [INFO]userhandler.go:20: 4
+2020/11/09 10:51:30 [INFO]userhandler.go:21: 0
+2020/11/09 10:51:30 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:51:30 [DEBUG]userhandler.go:26: handling user login, request: &{0xc0003a23f0 0xc0003d7800}
+2020/11/09 10:51:30 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:51:30 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:51:31 [DEBUG]selectcard.go:18: &{0xc0003a23f0 0xc0002bc440}
+2020/11/09 10:51:31 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:51:31 [DEBUG]selectcard.go:20: {"tech_level":1}
+2020/11/09 10:51:31 [DEBUG]selectcard.go:31: 1
+2020/11/09 10:51:31 [DEBUG]selectcard.go:86: GetSelectCards  1
+2020/11/09 10:51:31 [DEBUG]cardpercent.go:17: {1 1 80 20 0 0 0 5}
+2020/11/09 10:51:31 [DEBUG]selectcard.go:93: 5 [80 20 0 0 0]
+2020/11/09 10:51:31 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:51:31 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:51:31 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:51:31 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:51:31 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:51:31 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:51:31 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:51:31 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:51:31 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:51:31 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:51:31 [DEBUG]selectcard.go:34: [{"id":1,"card_name":"魅惑魔女","card_level":1,"cost":1,"basic_attack":50,"basic_health":350,"sale_price":1,"card_desc":""},{"id":16,"card_name":"水人","card_level":1,"cost":2,"basic_attack":70,"basic_health":400,"sale_price":2,"card_desc":""},{"id":6,"card_name":"赏金","card_level":1,"cost":1,"basic_attack":60,"basic_health":350,"sale_price":1,"card_desc":""},{"id":10,"card_name":"冰女","card_level":1,"cost":1,"basic_attack":40,"basic_health":300,"sale_price":1,"card_desc":""},{"id":7,"card_name":"tk","card_level":1,"cost":1,"basic_attack":55,"basic_health":350,"sale_price":1,"card_desc":""}]
+2020/11/09 10:51:31 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:51:55 [DEBUG]userhandler.go:18: pre user login, request: &{0xc0002b0120 0xc0003d7c80}
+2020/11/09 10:51:55 [INFO]userhandler.go:19: 127.0.0.1:55034
+2020/11/09 10:51:55 [INFO]userhandler.go:20: 5
+2020/11/09 10:51:55 [INFO]userhandler.go:21: 0
+2020/11/09 10:51:55 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:51:55 [DEBUG]userhandler.go:26: handling user login, request: &{0xc0002b0120 0xc0003d7c80}
+2020/11/09 10:51:55 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:51:55 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:51:56 [DEBUG]selectcard.go:18: &{0xc0002b0120 0xc000424100}
+2020/11/09 10:51:56 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:51:56 [DEBUG]selectcard.go:20: {"tech_level":2}
+2020/11/09 10:51:56 [DEBUG]selectcard.go:31: 2
+2020/11/09 10:51:56 [DEBUG]selectcard.go:86: GetSelectCards  2
+2020/11/09 10:51:56 [DEBUG]cardpercent.go:17: {2 2 70 30 0 0 0 5}
+2020/11/09 10:51:56 [DEBUG]selectcard.go:93: 5 [70 30 0 0 0]
+2020/11/09 10:51:56 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:51:56 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:51:56 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:51:56 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:51:56 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:51:56 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:51:56 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:51:56 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:51:56 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:51:56 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:51:56 [DEBUG]selectcard.go:34: [{"id":5,"card_name":"发条","card_level":1,"cost":1,"basic_attack":50,"basic_health":450,"sale_price":1,"card_desc":""},{"id":23,"card_name":"混沌","card_level":1,"cost":2,"basic_attack":60,"basic_health":550,"sale_price":2,"card_desc":""},{"id":1,"card_name":"魅惑魔女","card_level":1,"cost":1,"basic_attack":50,"basic_health":350,"sale_price":1,"card_desc":""},{"id":16,"card_name":"水人","card_level":1,"cost":2,"basic_attack":70,"basic_health":400,"sale_price":2,"card_desc":""},{"id":1,"card_name":"魅惑魔女","card_level":1,"cost":1,"basic_attack":50,"basic_health":350,"sale_price":1,"card_desc":""}]
+2020/11/09 10:51:56 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:52:13 [DEBUG]userhandler.go:18: pre user login, request: &{0xc0002b01b0 0xc00030d600}
+2020/11/09 10:52:13 [INFO]userhandler.go:19: 127.0.0.1:55038
+2020/11/09 10:52:13 [INFO]userhandler.go:20: 6
+2020/11/09 10:52:13 [INFO]userhandler.go:21: 0
+2020/11/09 10:52:13 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:52:13 [DEBUG]userhandler.go:26: handling user login, request: &{0xc0002b01b0 0xc00030d600}
+2020/11/09 10:52:13 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:52:13 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:52:14 [DEBUG]selectcard.go:18: &{0xc0002b01b0 0xc00030da80}
+2020/11/09 10:52:14 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:52:14 [DEBUG]selectcard.go:20: {"tech_level":5}
+2020/11/09 10:52:14 [DEBUG]selectcard.go:31: 5
+2020/11/09 10:52:14 [DEBUG]selectcard.go:86: GetSelectCards  5
+2020/11/09 10:52:14 [DEBUG]cardpercent.go:17: {5 5 40 40 20 0 0 5}
+2020/11/09 10:52:14 [DEBUG]selectcard.go:93: 5 [40 40 20 0 0]
+2020/11/09 10:52:14 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:52:14 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:52:14 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:52:14 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:52:14 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:52:14 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:52:14 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:52:14 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:52:14 [DEBUG]selectcard.go:98: 3
+2020/11/09 10:52:14 [DEBUG]selectcard.go:105: {3 [{3 大树 1 3 70 700 3 } {11 火女 1 3 70 500 3 } {17 幻刺 1 3 80 400 3 } {18 军团 1 3 70 500 3 } {24 亚龙 1 3 80 600 3 }]}
+2020/11/09 10:52:14 [DEBUG]selectcard.go:34: [{"id":2,"card_name":"先知","card_level":1,"cost":2,"basic_attack":60,"basic_health":400,"sale_price":2,"card_desc":""},{"id":5,"card_name":"发条","card_level":1,"cost":1,"basic_attack":50,"basic_health":450,"sale_price":1,"card_desc":""},{"id":16,"card_name":"水人","card_level":1,"cost":2,"basic_attack":70,"basic_health":400,"sale_price":2,"card_desc":""},{"id":15,"card_name":"巫医","card_level":1,"cost":2,"basic_attack":60,"basic_health":400,"sale_price":2,"card_desc":""},{"id":11,"card_name":"火女","card_level":1,"cost":3,"basic_attack":70,"basic_health":500,"sale_price":3,"card_desc":""}]
+2020/11/09 10:52:14 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:52:31 [DEBUG]userhandler.go:18: pre user login, request: &{0xc0003a2480 0xc0002bc880}
+2020/11/09 10:52:31 [INFO]userhandler.go:19: 127.0.0.1:55042
+2020/11/09 10:52:31 [INFO]userhandler.go:20: 7
+2020/11/09 10:52:31 [INFO]userhandler.go:21: 0
+2020/11/09 10:52:31 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:52:31 [DEBUG]userhandler.go:26: handling user login, request: &{0xc0003a2480 0xc0002bc880}
+2020/11/09 10:52:31 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:52:31 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:52:32 [DEBUG]selectcard.go:18: &{0xc0003a2480 0xc000424540}
+2020/11/09 10:52:32 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:52:32 [DEBUG]selectcard.go:20: {"tech_level":10}
+2020/11/09 10:52:32 [DEBUG]selectcard.go:31: 10
+2020/11/09 10:52:32 [DEBUG]selectcard.go:86: GetSelectCards  10
+2020/11/09 10:52:32 [DEBUG]cardpercent.go:17: {10 10 20 20 20 20 20 5}
+2020/11/09 10:52:32 [DEBUG]selectcard.go:93: 5 [20 20 20 20 20]
+2020/11/09 10:52:32 [DEBUG]selectcard.go:98: 4
+2020/11/09 10:52:32 [DEBUG]selectcard.go:105: {4 [{4 德鲁伊 1 4 80 650 4 } {9 炼金 1 4 80 800 4 } {12 光法 1 4 80 500 4 } {19 墨客 1 4 80 550 4 } {20 风行 1 4 80 600 4 }]}
+2020/11/09 10:52:32 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:52:32 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:52:32 [DEBUG]selectcard.go:98: 3
+2020/11/09 10:52:32 [DEBUG]selectcard.go:105: {3 [{3 大树 1 3 70 700 3 } {11 火女 1 3 70 500 3 } {17 幻刺 1 3 80 400 3 } {18 军团 1 3 70 500 3 } {24 亚龙 1 3 80 600 3 }]}
+2020/11/09 10:52:32 [DEBUG]selectcard.go:98: 4
+2020/11/09 10:52:32 [DEBUG]selectcard.go:105: {4 [{4 德鲁伊 1 4 80 650 4 } {9 炼金 1 4 80 800 4 } {12 光法 1 4 80 500 4 } {19 墨客 1 4 80 550 4 } {20 风行 1 4 80 600 4 }]}
+2020/11/09 10:52:32 [DEBUG]selectcard.go:98: 5
+2020/11/09 10:52:32 [DEBUG]selectcard.go:105: {5 [{13 炸弹人 1 5 90 600 5 } {14 宙斯 1 5 100 550 5 } {21 圣堂 1 5 90 600 5 } {22 谜团 1 5 100 900 5 }]}
+2020/11/09 10:52:32 [DEBUG]selectcard.go:34: [{"id":9,"card_name":"炼金","card_level":1,"cost":4,"basic_attack":80,"basic_health":800,"sale_price":4,"card_desc":""},{"id":7,"card_name":"tk","card_level":1,"cost":1,"basic_attack":55,"basic_health":350,"sale_price":1,"card_desc":""},{"id":24,"card_name":"亚龙","card_level":1,"cost":3,"basic_attack":80,"basic_health":600,"sale_price":3,"card_desc":""},{"id":19,"card_name":"墨客","card_level":1,"cost":4,"basic_attack":80,"basic_health":550,"sale_price":4,"card_desc":""},{"id":13,"card_name":"炸弹人","card_level":1,"cost":5,"basic_attack":90,"basic_health":600,"sale_price":5,"card_desc":""}]
+2020/11/09 10:52:32 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:52:50 [DEBUG]userhandler.go:18: pre user login, request: &{0xc0002b0240 0xc000424980}
+2020/11/09 10:52:50 [INFO]userhandler.go:19: 127.0.0.1:55046
+2020/11/09 10:52:50 [INFO]userhandler.go:20: 8
+2020/11/09 10:52:50 [INFO]userhandler.go:21: 0
+2020/11/09 10:52:50 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:52:50 [DEBUG]userhandler.go:26: handling user login, request: &{0xc0002b0240 0xc000424980}
+2020/11/09 10:52:50 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:52:50 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:52:51 [DEBUG]selectcard.go:18: &{0xc0002b0240 0xc000424e00}
+2020/11/09 10:52:51 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:52:51 [DEBUG]selectcard.go:20: {"tech_level":10}
+2020/11/09 10:52:51 [DEBUG]selectcard.go:31: 10
+2020/11/09 10:52:51 [DEBUG]selectcard.go:86: GetSelectCards  10
+2020/11/09 10:52:51 [DEBUG]cardpercent.go:17: {10 10 20 20 20 20 20 5}
+2020/11/09 10:52:51 [DEBUG]selectcard.go:93: 5 [20 20 20 20 20]
+2020/11/09 10:52:51 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:52:51 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:52:51 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:52:51 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:52:51 [DEBUG]selectcard.go:98: 3
+2020/11/09 10:52:51 [DEBUG]selectcard.go:105: {3 [{3 大树 1 3 70 700 3 } {11 火女 1 3 70 500 3 } {17 幻刺 1 3 80 400 3 } {18 军团 1 3 70 500 3 } {24 亚龙 1 3 80 600 3 }]}
+2020/11/09 10:52:51 [DEBUG]selectcard.go:98: 2
+2020/11/09 10:52:51 [DEBUG]selectcard.go:105: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:52:51 [DEBUG]selectcard.go:98: 5
+2020/11/09 10:52:51 [DEBUG]selectcard.go:105: {5 [{13 炸弹人 1 5 90 600 5 } {14 宙斯 1 5 100 550 5 } {21 圣堂 1 5 90 600 5 } {22 谜团 1 5 100 900 5 }]}
+2020/11/09 10:52:51 [DEBUG]selectcard.go:34: [{"id":16,"card_name":"水人","card_level":1,"cost":2,"basic_attack":70,"basic_health":400,"sale_price":2,"card_desc":""},{"id":16,"card_name":"水人","card_level":1,"cost":2,"basic_attack":70,"basic_health":400,"sale_price":2,"card_desc":""},{"id":24,"card_name":"亚龙","card_level":1,"cost":3,"basic_attack":80,"basic_health":600,"sale_price":3,"card_desc":""},{"id":16,"card_name":"水人","card_level":1,"cost":2,"basic_attack":70,"basic_health":400,"sale_price":2,"card_desc":""},{"id":21,"card_name":"圣堂","card_level":1,"cost":5,"basic_attack":90,"basic_health":600,"sale_price":5,"card_desc":""}]
+2020/11/09 10:52:51 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:53:04 [DEBUG]userhandler.go:18: pre user login, request: &{0xc0003a2510 0xc00030dec0}
+2020/11/09 10:53:04 [INFO]userhandler.go:19: 127.0.0.1:55048
+2020/11/09 10:53:04 [INFO]userhandler.go:20: 9
+2020/11/09 10:53:04 [INFO]userhandler.go:21: 0
+2020/11/09 10:53:04 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:53:04 [DEBUG]userhandler.go:26: handling user login, request: &{0xc0003a2510 0xc00030dec0}
+2020/11/09 10:53:04 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:53:04 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:53:05 [DEBUG]selectcard.go:18: &{0xc0003a2510 0xc000425240}
+2020/11/09 10:53:05 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:53:05 [DEBUG]selectcard.go:20: {"tech_level":10}
+2020/11/09 10:53:05 [DEBUG]selectcard.go:31: 10
+2020/11/09 10:53:05 [DEBUG]selectcard.go:86: GetSelectCards  10
+2020/11/09 10:53:05 [DEBUG]cardpercent.go:17: {10 10 20 20 20 20 20 5}
+2020/11/09 10:53:05 [DEBUG]selectcard.go:93: 5 [20 20 20 20 20]
+2020/11/09 10:53:05 [DEBUG]selectcard.go:98: 4
+2020/11/09 10:53:05 [DEBUG]selectcard.go:105: {4 [{4 德鲁伊 1 4 80 650 4 } {9 炼金 1 4 80 800 4 } {12 光法 1 4 80 500 4 } {19 墨客 1 4 80 550 4 } {20 风行 1 4 80 600 4 }]}
+2020/11/09 10:53:05 [DEBUG]selectcard.go:98: 3
+2020/11/09 10:53:05 [DEBUG]selectcard.go:105: {3 [{3 大树 1 3 70 700 3 } {11 火女 1 3 70 500 3 } {17 幻刺 1 3 80 400 3 } {18 军团 1 3 70 500 3 } {24 亚龙 1 3 80 600 3 }]}
+2020/11/09 10:53:05 [DEBUG]selectcard.go:98: 3
+2020/11/09 10:53:05 [DEBUG]selectcard.go:105: {3 [{3 大树 1 3 70 700 3 } {11 火女 1 3 70 500 3 } {17 幻刺 1 3 80 400 3 } {18 军团 1 3 70 500 3 } {24 亚龙 1 3 80 600 3 }]}
+2020/11/09 10:53:05 [DEBUG]selectcard.go:98: 3
+2020/11/09 10:53:05 [DEBUG]selectcard.go:105: {3 [{3 大树 1 3 70 700 3 } {11 火女 1 3 70 500 3 } {17 幻刺 1 3 80 400 3 } {18 军团 1 3 70 500 3 } {24 亚龙 1 3 80 600 3 }]}
+2020/11/09 10:53:05 [DEBUG]selectcard.go:98: 1
+2020/11/09 10:53:05 [DEBUG]selectcard.go:105: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:53:05 [DEBUG]selectcard.go:34: [{"id":9,"card_name":"炼金","card_level":1,"cost":4,"basic_attack":80,"basic_health":800,"sale_price":4,"card_desc":""},{"id":17,"card_name":"幻刺","card_level":1,"cost":3,"basic_attack":80,"basic_health":400,"sale_price":3,"card_desc":""},{"id":18,"card_name":"军团","card_level":1,"cost":3,"basic_attack":70,"basic_health":500,"sale_price":3,"card_desc":""},{"id":18,"card_name":"军团","card_level":1,"cost":3,"basic_attack":70,"basic_health":500,"sale_price":3,"card_desc":""},{"id":7,"card_name":"tk","card_level":1,"cost":1,"basic_attack":55,"basic_health":350,"sale_price":1,"card_desc":""}]
+2020/11/09 10:53:05 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:55:28 [INFO]main.go:11: svr start ...
+2020/11/09 10:55:37 [DEBUG]userhandler.go:18: pre user login, request: &{0xc00014a1b0 0xc00000e040}
+2020/11/09 10:55:37 [INFO]userhandler.go:19: 127.0.0.1:55108
+2020/11/09 10:55:37 [INFO]userhandler.go:20: 0
+2020/11/09 10:55:37 [INFO]userhandler.go:21: 0
+2020/11/09 10:55:37 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:55:37 [DEBUG]userhandler.go:26: handling user login, request: &{0xc00014a1b0 0xc00000e040}
+2020/11/09 10:55:37 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:55:37 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:55:38 [DEBUG]selectcard.go:18: &{0xc00014a1b0 0xc00000e6a0}
+2020/11/09 10:55:38 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:55:38 [DEBUG]selectcard.go:20: {"tech_level":10}
+2020/11/09 10:55:38 [DEBUG]selectcard.go:31: 10
+2020/11/09 10:55:38 [DEBUG]selectcard.go:77: GetSelectCards  10
+2020/11/09 10:55:38 [DEBUG]cardpercent.go:17: {10 10 20 20 20 20 20 5}
+2020/11/09 10:55:38 [DEBUG]selectcard.go:84: 5 [20 20 20 20 20]
+2020/11/09 10:55:38 [DEBUG]selectcard.go:90: 2
+2020/11/09 10:55:38 [DEBUG]selectcard.go:97: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:55:38 [DEBUG]selectcard.go:90: 3
+2020/11/09 10:55:38 [DEBUG]selectcard.go:97: {3 [{3 大树 1 3 70 700 3 } {11 火女 1 3 70 500 3 } {17 幻刺 1 3 80 400 3 } {18 军团 1 3 70 500 3 } {24 亚龙 1 3 80 600 3 }]}
+2020/11/09 10:55:38 [DEBUG]selectcard.go:90: 5
+2020/11/09 10:55:38 [DEBUG]selectcard.go:97: {5 [{13 炸弹人 1 5 90 600 5 } {14 宙斯 1 5 100 550 5 } {21 圣堂 1 5 90 600 5 } {22 谜团 1 5 100 900 5 }]}
+2020/11/09 10:55:38 [DEBUG]selectcard.go:90: 3
+2020/11/09 10:55:38 [DEBUG]selectcard.go:97: {3 [{3 大树 1 3 70 700 3 } {11 火女 1 3 70 500 3 } {17 幻刺 1 3 80 400 3 } {18 军团 1 3 70 500 3 } {24 亚龙 1 3 80 600 3 }]}
+2020/11/09 10:55:38 [DEBUG]selectcard.go:90: 5
+2020/11/09 10:55:38 [DEBUG]selectcard.go:97: {5 [{13 炸弹人 1 5 90 600 5 } {14 宙斯 1 5 100 550 5 } {21 圣堂 1 5 90 600 5 } {22 谜团 1 5 100 900 5 }]}
+2020/11/09 10:55:38 [DEBUG]selectcard.go:34: [{"id":8,"card_name":"伐木机","card_level":1,"cost":2,"basic_attack":60,"basic_health":600,"sale_price":2,"card_desc":""},{"id":11,"card_name":"火女","card_level":1,"cost":3,"basic_attack":70,"basic_health":500,"sale_price":3,"card_desc":""},{"id":22,"card_name":"谜团","card_level":1,"cost":5,"basic_attack":100,"basic_health":900,"sale_price":5,"card_desc":""},{"id":17,"card_name":"幻刺","card_level":1,"cost":3,"basic_attack":80,"basic_health":400,"sale_price":3,"card_desc":""},{"id":21,"card_name":"圣堂","card_level":1,"cost":5,"basic_attack":90,"basic_health":600,"sale_price":5,"card_desc":""}]
+2020/11/09 10:55:38 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:55:53 [DEBUG]userhandler.go:18: pre user login, request: &{0xc00014a240 0xc0003b3820}
+2020/11/09 10:55:53 [INFO]userhandler.go:19: 127.0.0.1:55112
+2020/11/09 10:55:53 [INFO]userhandler.go:20: 1
+2020/11/09 10:55:53 [INFO]userhandler.go:21: 0
+2020/11/09 10:55:53 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:55:53 [DEBUG]userhandler.go:26: handling user login, request: &{0xc00014a240 0xc0003b3820}
+2020/11/09 10:55:53 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:55:53 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:55:54 [DEBUG]selectcard.go:18: &{0xc00014a240 0xc0003b3ca0}
+2020/11/09 10:55:54 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:55:54 [DEBUG]selectcard.go:20: {"tech_level":10}
+2020/11/09 10:55:54 [DEBUG]selectcard.go:31: 10
+2020/11/09 10:55:54 [DEBUG]selectcard.go:77: GetSelectCards  10
+2020/11/09 10:55:54 [DEBUG]cardpercent.go:17: {10 10 20 20 20 20 20 5}
+2020/11/09 10:55:54 [DEBUG]selectcard.go:84: 5 [20 20 20 20 20]
+2020/11/09 10:55:54 [DEBUG]selectcard.go:90: 1
+2020/11/09 10:55:54 [DEBUG]selectcard.go:97: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:55:54 [DEBUG]selectcard.go:90: 3
+2020/11/09 10:55:54 [DEBUG]selectcard.go:97: {3 [{3 大树 1 3 70 700 3 } {11 火女 1 3 70 500 3 } {17 幻刺 1 3 80 400 3 } {18 军团 1 3 70 500 3 } {24 亚龙 1 3 80 600 3 }]}
+2020/11/09 10:55:54 [DEBUG]selectcard.go:90: 3
+2020/11/09 10:55:54 [DEBUG]selectcard.go:97: {3 [{3 大树 1 3 70 700 3 } {11 火女 1 3 70 500 3 } {17 幻刺 1 3 80 400 3 } {18 军团 1 3 70 500 3 } {24 亚龙 1 3 80 600 3 }]}
+2020/11/09 10:55:54 [DEBUG]selectcard.go:90: 2
+2020/11/09 10:55:54 [DEBUG]selectcard.go:97: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:55:54 [DEBUG]selectcard.go:90: 4
+2020/11/09 10:55:54 [DEBUG]selectcard.go:97: {4 [{4 德鲁伊 1 4 80 650 4 } {9 炼金 1 4 80 800 4 } {12 光法 1 4 80 500 4 } {19 墨客 1 4 80 550 4 } {20 风行 1 4 80 600 4 }]}
+2020/11/09 10:55:54 [DEBUG]selectcard.go:34: [{"id":10,"card_name":"冰女","card_level":1,"cost":1,"basic_attack":40,"basic_health":300,"sale_price":1,"card_desc":""},{"id":18,"card_name":"军团","card_level":1,"cost":3,"basic_attack":70,"basic_health":500,"sale_price":3,"card_desc":""},{"id":24,"card_name":"亚龙","card_level":1,"cost":3,"basic_attack":80,"basic_health":600,"sale_price":3,"card_desc":""},{"id":8,"card_name":"伐木机","card_level":1,"cost":2,"basic_attack":60,"basic_health":600,"sale_price":2,"card_desc":""},{"id":12,"card_name":"光法","card_level":1,"cost":4,"basic_attack":80,"basic_health":500,"sale_price":4,"card_desc":""}]
+2020/11/09 10:55:54 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:56:03 [DEBUG]userhandler.go:18: pre user login, request: &{0xc0002f6000 0xc0003de0e0}
+2020/11/09 10:56:03 [INFO]userhandler.go:19: 127.0.0.1:55114
+2020/11/09 10:56:03 [INFO]userhandler.go:20: 2
+2020/11/09 10:56:03 [INFO]userhandler.go:21: 0
+2020/11/09 10:56:03 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:56:03 [DEBUG]userhandler.go:26: handling user login, request: &{0xc0002f6000 0xc0003de0e0}
+2020/11/09 10:56:03 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:56:03 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:56:04 [DEBUG]selectcard.go:18: &{0xc0002f6000 0xc0002369c0}
+2020/11/09 10:56:04 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:56:04 [DEBUG]selectcard.go:20: {"tech_level":10}
+2020/11/09 10:56:04 [DEBUG]selectcard.go:31: 10
+2020/11/09 10:56:04 [DEBUG]selectcard.go:77: GetSelectCards  10
+2020/11/09 10:56:04 [DEBUG]cardpercent.go:17: {10 10 20 20 20 20 20 5}
+2020/11/09 10:56:04 [DEBUG]selectcard.go:84: 5 [20 20 20 20 20]
+2020/11/09 10:56:04 [DEBUG]selectcard.go:90: 3
+2020/11/09 10:56:04 [DEBUG]selectcard.go:97: {3 [{3 大树 1 3 70 700 3 } {11 火女 1 3 70 500 3 } {17 幻刺 1 3 80 400 3 } {18 军团 1 3 70 500 3 } {24 亚龙 1 3 80 600 3 }]}
+2020/11/09 10:56:04 [DEBUG]selectcard.go:90: 1
+2020/11/09 10:56:04 [DEBUG]selectcard.go:97: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:56:04 [DEBUG]selectcard.go:90: 1
+2020/11/09 10:56:04 [DEBUG]selectcard.go:97: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:56:04 [DEBUG]selectcard.go:90: 2
+2020/11/09 10:56:04 [DEBUG]selectcard.go:97: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:56:04 [DEBUG]selectcard.go:90: 3
+2020/11/09 10:56:04 [DEBUG]selectcard.go:97: {3 [{3 大树 1 3 70 700 3 } {11 火女 1 3 70 500 3 } {17 幻刺 1 3 80 400 3 } {18 军团 1 3 70 500 3 } {24 亚龙 1 3 80 600 3 }]}
+2020/11/09 10:56:04 [DEBUG]selectcard.go:34: [{"id":11,"card_name":"火女","card_level":1,"cost":3,"basic_attack":70,"basic_health":500,"sale_price":3,"card_desc":""},{"id":5,"card_name":"发条","card_level":1,"cost":1,"basic_attack":50,"basic_health":450,"sale_price":1,"card_desc":""},{"id":10,"card_name":"冰女","card_level":1,"cost":1,"basic_attack":40,"basic_health":300,"sale_price":1,"card_desc":""},{"id":23,"card_name":"混沌","card_level":1,"cost":2,"basic_attack":60,"basic_health":550,"sale_price":2,"card_desc":""},{"id":24,"card_name":"亚龙","card_level":1,"cost":3,"basic_attack":80,"basic_health":600,"sale_price":3,"card_desc":""}]
+2020/11/09 10:56:04 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:56:12 [DEBUG]userhandler.go:18: pre user login, request: &{0xc00038c2d0 0xc00029e040}
+2020/11/09 10:56:12 [INFO]userhandler.go:19: 127.0.0.1:55120
+2020/11/09 10:56:12 [INFO]userhandler.go:20: 3
+2020/11/09 10:56:12 [INFO]userhandler.go:21: 0
+2020/11/09 10:56:12 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:56:12 [DEBUG]userhandler.go:26: handling user login, request: &{0xc00038c2d0 0xc00029e040}
+2020/11/09 10:56:12 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:56:12 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:56:13 [DEBUG]selectcard.go:18: &{0xc00038c2d0 0xc0003de560}
+2020/11/09 10:56:13 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:56:13 [DEBUG]selectcard.go:20: {"tech_level":10}
+2020/11/09 10:56:13 [DEBUG]selectcard.go:31: 10
+2020/11/09 10:56:13 [DEBUG]selectcard.go:77: GetSelectCards  10
+2020/11/09 10:56:13 [DEBUG]cardpercent.go:17: {10 10 20 20 20 20 20 5}
+2020/11/09 10:56:13 [DEBUG]selectcard.go:84: 5 [20 20 20 20 20]
+2020/11/09 10:56:13 [DEBUG]selectcard.go:90: 5
+2020/11/09 10:56:13 [DEBUG]selectcard.go:97: {5 [{13 炸弹人 1 5 90 600 5 } {14 宙斯 1 5 100 550 5 } {21 圣堂 1 5 90 600 5 } {22 谜团 1 5 100 900 5 }]}
+2020/11/09 10:56:13 [DEBUG]selectcard.go:90: 1
+2020/11/09 10:56:13 [DEBUG]selectcard.go:97: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:56:13 [DEBUG]selectcard.go:90: 1
+2020/11/09 10:56:13 [DEBUG]selectcard.go:97: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:56:13 [DEBUG]selectcard.go:90: 5
+2020/11/09 10:56:13 [DEBUG]selectcard.go:97: {5 [{13 炸弹人 1 5 90 600 5 } {14 宙斯 1 5 100 550 5 } {21 圣堂 1 5 90 600 5 } {22 谜团 1 5 100 900 5 }]}
+2020/11/09 10:56:13 [DEBUG]selectcard.go:90: 5
+2020/11/09 10:56:13 [DEBUG]selectcard.go:97: {5 [{13 炸弹人 1 5 90 600 5 } {14 宙斯 1 5 100 550 5 } {21 圣堂 1 5 90 600 5 } {22 谜团 1 5 100 900 5 }]}
+2020/11/09 10:56:13 [DEBUG]selectcard.go:34: [{"id":21,"card_name":"圣堂","card_level":1,"cost":5,"basic_attack":90,"basic_health":600,"sale_price":5,"card_desc":""},{"id":7,"card_name":"tk","card_level":1,"cost":1,"basic_attack":55,"basic_health":350,"sale_price":1,"card_desc":""},{"id":6,"card_name":"赏金","card_level":1,"cost":1,"basic_attack":60,"basic_health":350,"sale_price":1,"card_desc":""},{"id":22,"card_name":"谜团","card_level":1,"cost":5,"basic_attack":100,"basic_health":900,"sale_price":5,"card_desc":""},{"id":14,"card_name":"宙斯","card_level":1,"cost":5,"basic_attack":100,"basic_health":550,"sale_price":5,"card_desc":""}]
+2020/11/09 10:56:13 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:56:32 [DEBUG]userhandler.go:18: pre user login, request: &{0xc0002f6090 0xc0003de9a0}
+2020/11/09 10:56:32 [INFO]userhandler.go:19: 127.0.0.1:55122
+2020/11/09 10:56:32 [INFO]userhandler.go:20: 4
+2020/11/09 10:56:32 [INFO]userhandler.go:21: 0
+2020/11/09 10:56:32 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:56:32 [DEBUG]userhandler.go:26: handling user login, request: &{0xc0002f6090 0xc0003de9a0}
+2020/11/09 10:56:32 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:56:32 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:56:33 [DEBUG]selectcard.go:18: &{0xc0002f6090 0xc00029e4c0}
+2020/11/09 10:56:33 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:56:33 [DEBUG]selectcard.go:20: {"tech_level":5}
+2020/11/09 10:56:33 [DEBUG]selectcard.go:31: 5
+2020/11/09 10:56:33 [DEBUG]selectcard.go:77: GetSelectCards  5
+2020/11/09 10:56:33 [DEBUG]cardpercent.go:17: {5 5 40 40 20 0 0 5}
+2020/11/09 10:56:33 [DEBUG]selectcard.go:84: 5 [40 40 20 0 0]
+2020/11/09 10:56:33 [DEBUG]selectcard.go:90: 2
+2020/11/09 10:56:33 [DEBUG]selectcard.go:97: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:56:33 [DEBUG]selectcard.go:90: 1
+2020/11/09 10:56:33 [DEBUG]selectcard.go:97: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:56:33 [DEBUG]selectcard.go:90: 1
+2020/11/09 10:56:33 [DEBUG]selectcard.go:97: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:56:33 [DEBUG]selectcard.go:90: 2
+2020/11/09 10:56:33 [DEBUG]selectcard.go:97: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:56:33 [DEBUG]selectcard.go:90: 2
+2020/11/09 10:56:33 [DEBUG]selectcard.go:97: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:56:33 [DEBUG]selectcard.go:34: [{"id":16,"card_name":"水人","card_level":1,"cost":2,"basic_attack":70,"basic_health":400,"sale_price":2,"card_desc":""},{"id":10,"card_name":"冰女","card_level":1,"cost":1,"basic_attack":40,"basic_health":300,"sale_price":1,"card_desc":""},{"id":10,"card_name":"冰女","card_level":1,"cost":1,"basic_attack":40,"basic_health":300,"sale_price":1,"card_desc":""},{"id":16,"card_name":"水人","card_level":1,"cost":2,"basic_attack":70,"basic_health":400,"sale_price":2,"card_desc":""},{"id":16,"card_name":"水人","card_level":1,"cost":2,"basic_attack":70,"basic_health":400,"sale_price":2,"card_desc":""}]
+2020/11/09 10:56:33 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:56:49 [DEBUG]userhandler.go:18: pre user login, request: &{0xc00038c360 0xc00029e900}
+2020/11/09 10:56:49 [INFO]userhandler.go:19: 127.0.0.1:55124
+2020/11/09 10:56:49 [INFO]userhandler.go:20: 5
+2020/11/09 10:56:49 [INFO]userhandler.go:21: 0
+2020/11/09 10:56:49 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:56:49 [DEBUG]userhandler.go:26: handling user login, request: &{0xc00038c360 0xc00029e900}
+2020/11/09 10:56:49 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:56:49 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:56:50 [DEBUG]selectcard.go:18: &{0xc00038c360 0xc0003dee20}
+2020/11/09 10:56:50 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:56:50 [DEBUG]selectcard.go:20: {"tech_level":5}
+2020/11/09 10:56:50 [DEBUG]selectcard.go:31: 5
+2020/11/09 10:56:50 [DEBUG]selectcard.go:77: GetSelectCards  5
+2020/11/09 10:56:50 [DEBUG]cardpercent.go:17: {5 5 40 40 20 0 0 5}
+2020/11/09 10:56:50 [DEBUG]selectcard.go:84: 5 [40 40 20 0 0]
+2020/11/09 10:56:50 [DEBUG]selectcard.go:90: 1
+2020/11/09 10:56:50 [DEBUG]selectcard.go:97: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:56:50 [DEBUG]selectcard.go:90: 1
+2020/11/09 10:56:50 [DEBUG]selectcard.go:97: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:56:50 [DEBUG]selectcard.go:90: 1
+2020/11/09 10:56:50 [DEBUG]selectcard.go:97: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:56:50 [DEBUG]selectcard.go:90: 2
+2020/11/09 10:56:50 [DEBUG]selectcard.go:97: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:56:50 [DEBUG]selectcard.go:90: 1
+2020/11/09 10:56:50 [DEBUG]selectcard.go:97: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:56:50 [DEBUG]selectcard.go:34: [{"id":7,"card_name":"tk","card_level":1,"cost":1,"basic_attack":55,"basic_health":350,"sale_price":1,"card_desc":""},{"id":10,"card_name":"冰女","card_level":1,"cost":1,"basic_attack":40,"basic_health":300,"sale_price":1,"card_desc":""},{"id":5,"card_name":"发条","card_level":1,"cost":1,"basic_attack":50,"basic_health":450,"sale_price":1,"card_desc":""},{"id":23,"card_name":"混沌","card_level":1,"cost":2,"basic_attack":60,"basic_health":550,"sale_price":2,"card_desc":""},{"id":7,"card_name":"tk","card_level":1,"cost":1,"basic_attack":55,"basic_health":350,"sale_price":1,"card_desc":""}]
+2020/11/09 10:56:50 [DEBUG]selectcard.go:39: SelectCardHandler post
+2020/11/09 10:57:08 [DEBUG]userhandler.go:18: pre user login, request: &{0xc00038c3f0 0xc000236e00}
+2020/11/09 10:57:08 [INFO]userhandler.go:19: 127.0.0.1:55128
+2020/11/09 10:57:08 [INFO]userhandler.go:20: 6
+2020/11/09 10:57:08 [INFO]userhandler.go:21: 0
+2020/11/09 10:57:08 [INFO]userhandler.go:22: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:57:08 [DEBUG]userhandler.go:26: handling user login, request: &{0xc00038c3f0 0xc000236e00}
+2020/11/09 10:57:08 [INFO]userhandler.go:27: {"user_id":1,"pass_word":"202CB962AC59075B964B07152D234B70"}
+2020/11/09 10:57:08 [DEBUG]user.go:12: login: 1  202CB962AC59075B964B07152D234B70
+2020/11/09 10:57:09 [DEBUG]selectcard.go:18: &{0xc00038c3f0 0xc00029ed80}
+2020/11/09 10:57:09 [DEBUG]selectcard.go:19: 2
+2020/11/09 10:57:09 [DEBUG]selectcard.go:20: {"tech_level":8}
+2020/11/09 10:57:09 [DEBUG]selectcard.go:31: 8
+2020/11/09 10:57:09 [DEBUG]selectcard.go:77: GetSelectCards  8
+2020/11/09 10:57:09 [DEBUG]cardpercent.go:17: {8 8 25 25 30 15 5 5}
+2020/11/09 10:57:09 [DEBUG]selectcard.go:84: 5 [25 25 30 15 5]
+2020/11/09 10:57:09 [DEBUG]selectcard.go:90: 1
+2020/11/09 10:57:09 [DEBUG]selectcard.go:97: {1 [{1 魅惑魔女 1 1 50 350 1 } {5 发条 1 1 50 450 1 } {6 赏金 1 1 60 350 1 } {7 tk 1 1 55 350 1 } {10 冰女 1 1 40 300 1 }]}
+2020/11/09 10:57:09 [DEBUG]selectcard.go:90: 2
+2020/11/09 10:57:09 [DEBUG]selectcard.go:97: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:57:09 [DEBUG]selectcard.go:90: 4
+2020/11/09 10:57:09 [DEBUG]selectcard.go:97: {4 [{4 德鲁伊 1 4 80 650 4 } {9 炼金 1 4 80 800 4 } {12 光法 1 4 80 500 4 } {19 墨客 1 4 80 550 4 } {20 风行 1 4 80 600 4 }]}
+2020/11/09 10:57:09 [DEBUG]selectcard.go:90: 3
+2020/11/09 10:57:09 [DEBUG]selectcard.go:97: {3 [{3 大树 1 3 70 700 3 } {11 火女 1 3 70 500 3 } {17 幻刺 1 3 80 400 3 } {18 军团 1 3 70 500 3 } {24 亚龙 1 3 80 600 3 }]}
+2020/11/09 10:57:09 [DEBUG]selectcard.go:90: 2
+2020/11/09 10:57:09 [DEBUG]selectcard.go:97: {2 [{2 先知 1 2 60 400 2 } {8 伐木机 1 2 60 600 2 } {15 巫医 1 2 60 400 2 } {16 水人 1 2 70 400 2 } {23 混沌 1 2 60 550 2 }]}
+2020/11/09 10:57:09 [DEBUG]selectcard.go:34: [{"id":6,"card_name":"赏金","card_level":1,"cost":1,"basic_attack":60,"basic_health":350,"sale_price":1,"card_desc":""},{"id":2,"card_name":"先知","card_level":1,"cost":2,"basic_attack":60,"basic_health":400,"sale_price":2,"card_desc":""},{"id":19,"card_name":"墨客","card_level":1,"cost":4,"basic_attack":80,"basic_health":550,"sale_price":4,"card_desc":""},{"id":17,"card_name":"幻刺","card_level":1,"cost":3,"basic_attack":80,"basic_health":400,"sale_price":3,"card_desc":""},{"id":15,"card_name":"巫医","card_level":1,"cost":2,"basic_attack":60,"basic_health":400,"sale_price":2,"card_desc":""}]
+2020/11/09 10:57:09 [DEBUG]selectcard.go:39: SelectCardHandler post

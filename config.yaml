@@ -1,0 +1,20 @@
+server:
+  host: localhost
+  port: 8888
+db:
+  host: localhost
+  port: 3306
+  username: root
+  password: password_123456
+  dbname: chess
+#etcd:
+#  host: etcd
+#  port: 2379
+#  basepath: file_search_rpc
+#rpc:
+#  host: rpc
+#  port: 9001
+#redis:
+#  host: redis
+#  port: 6379
+#searchdir: /searchfiles/
